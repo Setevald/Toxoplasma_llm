@@ -25,7 +25,7 @@ toxoplasma_llm/
 │   └── config.py
 ├── requirements.txt
 └── README.md
-
+```
 ## Requirements
 
 Recommended Python version:
