@@ -9,11 +9,6 @@ Responsibilities:
 
 This file should NOT contain model logic.
 """
-import os
-
-os.environ["HF_HOME"] = "D:\\hf_cache"
-os.environ["TRANSFORMERS_CACHE"] = "D:\\hf_cache"
-os.environ["TORCH_HOME"] = "D:\\hf_cache"
 
 from pathlib import Path
 from fastapi import FastAPI, UploadFile, File, HTTPException
